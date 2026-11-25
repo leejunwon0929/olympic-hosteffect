@@ -466,7 +466,7 @@ with st.container(key="step-chart4"):
         st.plotly_chart(finish_layout(fig4), width="stretch")
     with text_col:
         st.markdown(
-            "**점선 위 = 평소보다 많이 땀.**\n\n"
+            "**점선 윗부분 = 평소보다 많이 땀.**\n\n"
             "두 축 모두 같은 로그 눈금이라 점선이 정확히 45도입니다. 점선 위로 떨어진 거리가 배수이므로, "
             "점유율 0.2%인 나라와 20%인 나라를 같은 그림에서 비교할 수 있습니다."
         )
