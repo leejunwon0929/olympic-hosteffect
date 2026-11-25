@@ -218,7 +218,7 @@ with st.container(key="step-hero"):
             "**출처**\n"
             "- 메달표: `medal_table_summary.csv` — 대회×국가(NOC)별 금·은·동 수\n"
             "- 대회 정보: `edition_metadata.csv` — 개최 도시, 개최국, 메달 종목 수\n"
-            "- 저장소: github.com/moderndive/olympicAthletes (CRAN 패키지 olympicAthletes, 라이선스 CC BY 4.0)\n\n"
+            "- 저장소: github.com/moderndive/olympicAthletes 의 `data-raw` 폴더에서 CSV를 직접 내려받음 (라이선스 CC BY 4.0)\n"
             "**집계 기준** (make_data.py)\n"
             "1. 1906년 중간 대회(IOC 비공인) 제외, 1916·1940·1944년 취소 대회 제외\n"
             "2. 1956년 스톡홀름 승마(호주 검역 문제로 분리 개최)는 1956년 하계에 합치고, 개최국은 호주로 봄\n"
